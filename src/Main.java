@@ -2,13 +2,14 @@ public class Main {
     public static void main(String[] args) {
 
         // Задание 1
-        var dog = 8.0;
+        var dog = 8.0; //По условию задачи необходимо присвоить значение 8, но тогда переменная определяется как int и при дальнейшем вычитании из нее 3.6 выдается ошибка, поэтому присвоил 8.0
         var cat = 3.6;
         var paper = 763789;
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
         System.out.println("Задание 1 выполнено");
+        System.out.println();
 
         // Задание 2
         dog = dog + 4;
@@ -18,6 +19,7 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
         System.out.println("Задание 2 выполнено");
+        System.out.println();
 
         // Задание 3
         dog = dog - 3.6;
@@ -27,6 +29,7 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
         System.out.println("Задание 3 выполнено");
+        System.out.println();
 
         // Задание 4
         var friend = 19;
@@ -36,6 +39,7 @@ public class Main {
         friend = friend / 7;
         System.out.println(friend);
         System.out.println("Задание 4 выполнено");
+        System.out.println();
 
         // Задание 5
         var frog = 3.5;
@@ -47,6 +51,7 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
         System.out.println("Задание 5 выполнено");
+        System.out.println();
 
         // Задание 6
         var boxer1Weight = 78.2;
@@ -56,12 +61,14 @@ public class Main {
         var differenceWeight1 = boxer2Weight - boxer1Weight;
         System.out.println("Разница в весе боксеров " + differenceWeight1 + " кг ");
         System.out.println("Задание 6 выполнено");
+        System.out.println();
 
         // Задание 7
         System.out.println("Разница в весе боксеров " + differenceWeight1 + " кг (вычислено 1-ым способом)");
         var differenceWeight2 = boxer2Weight % boxer1Weight;
         System.out.println("Разница в весе боксеров " + differenceWeight2 + " кг (вычислено 2-ым способом)");
         System.out.println("Задание 7 выполнено");
+        System.out.println();
 
         // Задание 8
         var workHours = 640;
